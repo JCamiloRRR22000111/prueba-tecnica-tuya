@@ -5,7 +5,7 @@ from typing import List, Dict
 
 class ImageConverter:
 
-    @staticmethod #Función estatica, no es necesario crear un objeto
+    @staticmethod #Metodo estatico, no es necesario crear un objeto
     def image_to_base64(image_path: Path) -> str:
         try:
             with open(image_path, "rb") as f: #Se abre el archivo en modo binario
